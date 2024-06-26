@@ -1,49 +1,10 @@
 ## Features
-
-- Train chatbot from multiple sources (PDFs, documents, websites, YouTube videos)
-- User system with social authentication through Google
 - Connect with OpenAI GPT-3.5 language model for conversation
-- Use Pinecone and FAISS for vector indexing
 - Employ OpenAI's text-embedding-ada-002 for text embedding
-- Python Langchain library for file processing and text conversion
-- Scalable architecture with separate settings for local, staging, and production environments
-- Dynamic site settings for title and prompt updates
+- Python Langchain library for file processing and text c
 - Multilingual support
-- PostgreSQL database support
-- Celery task scheduler with Redis and AWS SQS options
 - AWS S3 bucket support for scalable hosting
 - Easy deployment on Heroku or AWS
-
-## Technologies
-
-- Language: Python
-- Framework: Django REST Framework
-- Database: PostgreSQL
-
-### Major Libraries:
-
-- Celery
-- Langchain
-- OpenAI
-- Pinecone
-- FAISS
-
-## Requirements
-
-- Python 3.8 or above
-- Django 4.1 or above
-- Pinecone API Key
-- API key from OpenAI
-- Redis or AWS SQS
-- PostgreSQL database
-
-## Future Scope
-
-- Integration with more third-party services for authentication
-- Support for additional file formats and media types for chatbot training
-- Improved context-awareness in conversations
-- Enhanced multilingual support with automatic language detection
-- Integration with popular messaging platforms and chat applications
 
 ## How to run
 
@@ -71,7 +32,4 @@ The chatbot can be deployed on Heroku or AWS by following the standard procedure
 ## Note
 
 Make sure that you have API key from OpenAI before running the project.
-
-This is just a basic implementation of the project, you can always add more features and customization according to your requirement.
-
 Enjoy!
